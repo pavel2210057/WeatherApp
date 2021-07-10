@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Weather Test Task</string>
+
+    <string name="weatherStatistics_title">Weather Statistics</string>
+    <string name="weatherStatistics_searchByZipCode_listItemTitle">Search by Zip Code</string>
+    <string name="weatherStatistics_selectedLocation_listItemTitle">Location</string>
+    <string name="weatherStatistics_temperature_listItemTitle">Temperature</string>
+    <string name="weatherStatistics_windSpeed_listItemTitle">Wind Speed</string>
+    <string name="weatherStatistics_humidity_listItemTitle">Humidity</string>
+    <string name="weatherStatistics_visibility_listItemTitle">Visibility</string>
+    <string name="weatherStatistics_sunriseTime_listItemTitle">Time of Sunrise</string>
+    <string name="weatherStatistics_sunsetTime_listItemTitle">Time of Sunset</string>
+    <string name="weatherStatistics_zipCode_inputTitle">Zip Code</string>
+    <string name="weatherStatistics_getWeather_button">Get Weather</string>
+    <string name="weatherStatistics_temperatureFahrenheit_value">%.2f F</string>
+    <string name="weatherStatistics_temperatureCelsius_value">%.2f \u2103</string>
+    <string name="weatherStatistics_speedMph_value">%.1f mph</string>
+    <string name="weatherStatistics_speedKmph_value">%.1f kmh</string>
+    <string name="weatherStatistics_visibility_value">%.1f km</string>
+    <string name="weatherStatistics_humidity_value">%d%%</string>
+</resources>

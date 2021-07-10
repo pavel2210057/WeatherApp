@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.WeatherTestTask" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+    </style>
+</resources>
