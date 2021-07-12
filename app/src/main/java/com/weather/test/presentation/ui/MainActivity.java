@@ -1,4 +1,4 @@
-package com.weather.test.ui;
+package com.weather.test.presentation.ui;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;

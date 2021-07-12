@@ -5,7 +5,7 @@ import com.weather.test.data.db.entity.mapper.asWeatherStatisticsEntity
 import com.weather.test.data.db.repository.DbWeatherStatisticsRepository
 import com.weather.test.data.restapi.entity.mapper.asWeatherStatisticsEntity
 import com.weather.test.data.restapi.repository.ApiWeatherStatisticsRepository
-import com.weather.test.domain.common.viewstate.FetchDataViewState
+import com.weather.test.presentation.common.FetchDataViewState
 import com.weather.test.domain.entity.WeatherStatisticsEntity
 import com.weather.test.service.NetworkService
 

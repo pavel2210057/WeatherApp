@@ -2,7 +2,7 @@ package com.weather.test.data.restapi.repository
 
 import com.weather.test.data.restapi.call.WeatherStatisticsCall
 import com.weather.test.data.restapi.entity.ApiWeatherStatisticsEntity
-import com.weather.test.domain.common.viewstate.FetchDataViewState
+import com.weather.test.presentation.common.FetchDataViewState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

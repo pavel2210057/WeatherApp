@@ -2,7 +2,7 @@ package com.weather.test.data.db.repository
 
 import com.weather.test.data.db.WeatherDatabase
 import com.weather.test.data.db.entity.DbWeatherStatisticsEntity
-import com.weather.test.domain.common.viewstate.FetchDataViewState
+import com.weather.test.presentation.common.FetchDataViewState
 import com.weather.test.domain.entity.SpeedMeasure
 import com.weather.test.domain.entity.TemperatureMeasure
 

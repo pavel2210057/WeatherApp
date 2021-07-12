@@ -1,4 +1,4 @@
-package com.weather.test.domain.viewmodel.weatherstat
+package com.weather.test.presentation.ui.weatherstat
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.weather.test.data.db.repository.DbWeatherStatisticsRepository
 import com.weather.test.data.repository.WeatherStatisticsRepository
 import com.weather.test.domain.common.formatter.*
-import com.weather.test.domain.common.viewstate.FetchDataViewState
+import com.weather.test.presentation.common.FetchDataViewState
 import com.weather.test.domain.entity.SpeedMeasure
 import com.weather.test.domain.entity.TemperatureMeasure
 import com.weather.test.domain.entity.WeatherStatisticsEntity

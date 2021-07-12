@@ -11,7 +11,7 @@ import com.weather.test.data.restapi.call.WeatherStatisticsCall
 import com.weather.test.data.restapi.interceptor.ApiInterceptor
 import com.weather.test.data.restapi.repository.ApiWeatherStatisticsRepository
 import com.weather.test.domain.common.formatter.*
-import com.weather.test.domain.viewmodel.weatherstat.WeatherStatisticsViewModel
+import com.weather.test.presentation.ui.weatherstat.WeatherStatisticsViewModel
 import com.weather.test.service.NetworkService
 import okhttp3.OkHttpClient
 import org.koin.android.ext.koin.androidContext

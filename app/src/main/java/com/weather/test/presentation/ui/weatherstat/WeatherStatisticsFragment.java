@@ -1,4 +1,4 @@
-package com.weather.test.ui.weatherstat;
+package com.weather.test.presentation.ui.weatherstat;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,15 +11,14 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import com.weather.test.R;
 import com.weather.test.databinding.FragmentWeatherStatisticsBinding;
-import com.weather.test.domain.common.viewstate.FetchDataViewState;
+import com.weather.test.presentation.common.FetchDataViewState;
 import com.weather.test.domain.value.Celsius;
 import com.weather.test.domain.value.Fahrenheit;
 import com.weather.test.domain.value.KilometersPerHour;
 import com.weather.test.domain.value.MilesPerHour;
 import com.weather.test.domain.value.Speed;
 import com.weather.test.domain.value.Temperature;
-import com.weather.test.domain.viewmodel.weatherstat.WeatherStatisticsViewModel;
-import com.weather.test.domain.viewmodel.weatherstat.WeatherStatisticsViewModel.UiWeatherStatisticsEntity;
+import com.weather.test.presentation.ui.weatherstat.WeatherStatisticsViewModel.UiWeatherStatisticsEntity;
 import kotlin.Lazy;
 
 import static org.koin.android.compat.ViewModelCompat.viewModel;

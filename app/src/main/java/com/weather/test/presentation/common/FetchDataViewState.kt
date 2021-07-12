@@ -1,4 +1,4 @@
-package com.weather.test.domain.common.viewstate
+package com.weather.test.presentation.common
 
 sealed class FetchDataViewState<T> {
     class Loading<T> : FetchDataViewState<T>()
